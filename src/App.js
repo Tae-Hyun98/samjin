@@ -1,5 +1,4 @@
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import data from './pages/productData';
 import About from './pages/About';
 import Detail from './pages/Detail';
