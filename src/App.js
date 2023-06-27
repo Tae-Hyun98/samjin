@@ -26,7 +26,6 @@ function App() {
 
   const navigate = useNavigate()
   const [bests] = useState(data)  //useState로 상태관리
-  const state = useSelector((state)=> state)
   const dispatch = useDispatch()
 
   return (
@@ -48,7 +47,7 @@ function App() {
         <Route path='/' element={
 
         <Container>
-          <img className='visual_main' src={process.env.PUBLIC_URL+'./images/visual_main_01.jpg'} alt='vm'/>
+          <img className='visual_main' src={process.env.PUBLIC_URL+'/images/visual_main_01.jpg'} alt='vm'/>
           <h2 className='best_tit'>Best 상품</h2>
           <Row>
             {

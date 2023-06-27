@@ -9,10 +9,6 @@ export default function Cart() {
   const state = useSelector((state)=>state) //useSelector는 store에 있는 state를 가져오는 Hooks
   const dispatch = useDispatch()
 
-    let count1=document.querySelector('.count')
-    let price1=document.querySelector('.price')
-
-    let add1=count1*price1
 
   return (
     <div style={{textAlign:'center'}}>

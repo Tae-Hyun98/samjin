@@ -10,7 +10,7 @@ import store from './pages/store';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Provider store={store}>
-    <BrowserRouter basename='/sam'>
+    <BrowserRouter basename='/samjin'>
       <App />
     </BrowserRouter>
   </Provider>
