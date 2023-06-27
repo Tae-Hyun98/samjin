@@ -23,7 +23,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://tae-hyun98.github.io/samjin/",
+  "homepage": "https://tae-hyun98.github.io/samjin",
   "eslintConfig": {
     "extends": [
       "react-app",
