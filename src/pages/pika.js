@@ -6,7 +6,7 @@ export default function pika() {
     <div>pika</div>
     <div>pika231</div>
     <div>pika1</div>
-    <h1>123124123</h1>
+    <h1>woooooooojin♥</h1>
     </>
   )
 }
