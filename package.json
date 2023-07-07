@@ -12,6 +12,7 @@
     "react-redux": "^8.1.1",
     "react-router-dom": "^6.14.0",
     "react-scripts": "5.0.1",
+    "styled-component": "^2.8.0",
     "styled-components": "^6.0.0-rc.6",
     "web-vitals": "^2.1.4"
   },
@@ -23,9 +24,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  
   "homepage": "https://tae-hyun98.github.io/samjin",
-
   "eslintConfig": {
     "extends": [
       "react-app",
